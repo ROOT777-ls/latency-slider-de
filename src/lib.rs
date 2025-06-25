@@ -10,7 +10,7 @@ use skyline::hooks::InlineCtx;
 mod css_ui;
 mod offsets;
 
-#[skyline::from_offset(0x37a1f10)]
+#[skyline::from_offset(0x37a22f0)]
 unsafe fn set_text_string(pane: u64, string: *const u8);
 
 static mut CURRENT_PANE_HANDLE: usize = 0;
