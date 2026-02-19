@@ -19,7 +19,7 @@ static mut CURRENT_INPUT_BUFFER: isize = 2;
 static mut MOST_RECENT_AUTO: isize = -1;
 static mut STEALTH_MODE: bool = true;
 
-const MAX_INPUT_BUFFER: isize = 4;
+const MAX_INPUT_BUFFER: isize = 3;
 const MIN_INPUT_BUFFER: isize = -1;
 
 struct DpadInputState {
