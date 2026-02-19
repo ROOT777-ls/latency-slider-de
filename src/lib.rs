@@ -15,11 +15,11 @@ unsafe fn set_text_string(pane: u64, string: *const u8);
 
 static mut CURRENT_PANE_HANDLE: usize = 0;
 static mut CURRENT_ARENA_ID: String = String::new();
-static mut CURRENT_INPUT_BUFFER: isize = 4;
+static mut CURRENT_INPUT_BUFFER: isize = 2;
 static mut MOST_RECENT_AUTO: isize = -1;
-static mut STEALTH_MODE: bool = false;
+static mut STEALTH_MODE: bool = true;
 
-const MAX_INPUT_BUFFER: isize = 25;
+const MAX_INPUT_BUFFER: isize = 4;
 const MIN_INPUT_BUFFER: isize = -1;
 
 struct DpadInputState {
